@@ -1,0 +1,55 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+/vendor/
+/node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!laravel/.env.example
+!nextjs/.env.example
+laravel/.env
+nextjs/.env
+
+# Laravel specific
+laravel/.phpunit.result.cache
+laravel/storage/*.key
+laravel/storage/pail
+laravel/public/build
+laravel/public/hot
+laravel/public/storage
+laravel/.fleet
+laravel/.idea
+laravel/.nova
+laravel/.phpunit.cache
+laravel/.vscode
+laravel/.zed
+laravel/auth.json
+laravel/Homestead.json
+laravel/Homestead.yaml
+
+# Next.js / Node
+nextjs/.pnp
+nextjs/.pnp.*
+nextjs/.next
+nextjs/out
+nextjs/build
+nextjs/.yarn
+nextjs/.vercel
+nextjs/coverage
+nextjs/next-env.d.ts
+nextjs/*.tsbuildinfo
+nextjs/.npm
+nextjs/.pnpm-store
+nextjs/npm-debug.log*
+nextjs/yarn-debug.log*
+nextjs/yarn-error.log*
+nextjs/.pnpm-debug.log*
+nextjs/src/generated/prisma
+
+# Compose & tooling artefacts
+/docker-compose.override.yml
+.idea/
+.vscode/
